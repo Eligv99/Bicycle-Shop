@@ -5,25 +5,40 @@
         <title>Bicycle Rentals</title>
         <!-- Links and CDN -->
         <!-- CSS File -->
-        <link rel="styleshet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
-
+            <div class="header">
+                <span class="burger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                <!-- Bicycle GIF -->
+                <img class="bike-img" src="assets/img/bike.png" alt="Bicycle">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a class="font" href="#">About</a>
+                    <a class="font" href="#">Services</a>
+                    <a class="font" href="#">Rentals</a>
+                    <a class="font" href="#">Contact</a>
+                </div>
+            </div>
         </header>
         
+
         
         
         
-        
+        <footer>
+            <div class="footer"></div>
+        </footer>
+
         <!-- Jquery and Ajax CDN -->
         <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>       
         <!-- Javascript File -->
-        <script src="assets/javascript/app.js"></script>
-        
+        <script src="assets/javascript/app.js"></script> 
     </body>
 </html>

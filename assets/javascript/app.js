@@ -1,4 +1,11 @@
-
+//Functions for nav bar
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+  
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
 // Ajax callback fucntion to extract data from the Json file
 $(document).ready(function(){
 
@@ -9,7 +16,7 @@ $(document).ready(function(){
         cache: false,
         success: function(data){
             $(data.products).each(function(index, value){
-                console.log('it works')
+                console.log(data.products)
             })
         }
     });
