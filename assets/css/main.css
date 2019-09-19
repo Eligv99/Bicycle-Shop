@@ -5,6 +5,7 @@ body {
 .header {
     width: 100%;
     background-color: grey;
+    height: 4em;
     position: relative;
 }
 
@@ -64,8 +65,22 @@ body {
 
 .bike-img {
     width: 3em;
-    padding: 5px;
-    margin-left: 32%;
+    padding: 3px;
+    margin-left: 31%;
+    margin-top: 2%;
+}
+
+.head-p {
+    margin-top: 2em;
+}
+
+.head-p h2{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    opacity: 0.9;
+
 }
 
 @media screen and (max-height: 450px) {
