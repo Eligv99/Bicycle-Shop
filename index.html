@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="eng">
-    <head>
-        <meta charset="UTF-8">
-        <title>Bicycle Rentals</title>
-        <!-- Links and CDN -->
-        <link rel="icon" type="image/png" href="http://example.com/myicon.png">
-        <!-- CSS File -->
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    </head>
 
-    <body>
-        <header>
-            <div class="fluid-container">
-                <div class="header">
-                <span class="burger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<head>
+    <meta charset="UTF-8">
+    <title>Bicycle Rentals</title>
+    <!-- Links and CDN -->
+    <link rel="icon" type="image/png" href="http://example.com/myicon.png">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="fluid-container">
+            <div class="header">
+                <span class="burger" style="font-size:45px;cursor:pointer" onclick="openNav()">&#9776;</span>
                 <img class="bike-img" src="assets/img/bike.png" alt="Bicycle">
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -25,34 +27,55 @@
                     <a class="font" href="#">Contact</a>
                 </div>
             </div>
-            </div>
-            
-        </header>
-        
-        <div class="container">
-            <div class="head-p font">
-                <h2>Bike Rentals and more.</h2>
-            </div>
-        </div>
-       
-
-        <div class="container">
-            <div class="head-p font">
-                <p class="m-p font">Choose the bike that suits you and your experience.</p>
-            </div>
         </div>
 
-        
-        <footer>
-            <div class="footer"></div>
-        </footer>
+    </header>
 
-        <!-- Jquery and Ajax CDN -->
-        <script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>       
-        <!-- Javascript File -->
-        <script src="assets/javascript/app.js"></script> 
-    </body>
+    <div class="container">
+        <div class="head-p font">
+            <h2 class="h2">Bike Rentals and more.</h2>
+        </div>
+
+        <div class="head-p font">
+            <p class="m-p font p">Choose the bike that suits you and your experience.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="media">
+            <img src="http://via.placeholder.com/250x250?text=Adult%20Male%20Bike" class=" align-self-end mr-3"
+                alt="...">
+            <div class="ul-list">
+                <ul>
+                    <li>
+                        <h4>Adult Bike</h4>
+                    </li>
+                    <li>20.5.</li>
+                    <li>Product type: bike</li>
+                    <li><button type="button" class="btn btn-outline-secondary">Secondary</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="card text-center">
+            <div class="card-header">
+                Checkout
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer"></div>
+    </footer>
+
+    <!-- Jquery and Ajax CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Javascript File -->
+    <script src="assets/javascript/app.js"></script>
+</body>
+
 </html>

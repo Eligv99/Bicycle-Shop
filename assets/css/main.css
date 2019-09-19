@@ -4,14 +4,42 @@ body {
 
 .header {
     width: 100%;
-    background-color: grey;
-    height: 4em;
+    background-color: #8a4d4f;;
+    height: 8em;
     position: relative;
+}
+
+.h2 {
+    font-size: 4rem !important;
+}
+
+.p {
+    font-size: 2em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-top: 20%;
+}
+
+/* .ul-list {
+    padding: 2em;
+}
+.ul-list ul li {
+    margin-top: 0em;
+} */
+
+.media {
+    margin-top: 7em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .footer {
     width: 100%;
-    background-color: gray;
+    background-color: #8a4d4f;;
     height: 5em;
     position: fixed;
     left: 0%;
@@ -56,7 +84,7 @@ body {
 .burger {
     float: left;
     margin-left: 3%;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
 .font {
@@ -64,9 +92,9 @@ body {
 }
 
 .bike-img {
-    width: 3em;
+    width: 6em;
     padding: 3px;
-    margin-left: 31%;
+    margin-left: 38%;
     margin-top: 2%;
 }
 
@@ -81,6 +109,10 @@ body {
     font-family: 'Oswald', sans-serif;
     opacity: 0.9;
 
+}
+
+.card {
+    margin-top: 9em;
 }
 
 @media screen and (max-height: 450px) {
