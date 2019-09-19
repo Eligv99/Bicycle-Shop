@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: whitesmoke !important;
 }
 
 .header {
@@ -103,9 +104,6 @@ li {
 }
 
 .head-p h2{
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    color:white;
     font-family: 'Oswald', sans-serif;
     opacity: 0.9;
 
@@ -117,5 +115,5 @@ li {
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav a {font-size: 20px;}
 }
