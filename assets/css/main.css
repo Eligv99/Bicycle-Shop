@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    background-color: whitesmoke !important;
+    background-color: whitesmoke  !important;
 }
 
 .header {
     width: 100%;
-    background-color: #8a4d4f;;
+    background-color: lightslategray;;
     height: 8em;
     position: relative;
 }
@@ -26,13 +26,6 @@ li {
     margin-top: 20%;
 }
 
-/* .ul-list {
-    padding: 2em;
-}
-.ul-list ul li {
-    margin-top: 0em;
-} */
-
 .media {
     margin-top: 7em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -40,12 +33,10 @@ li {
 
 .footer {
     width: 100%;
-    background-color: #8a4d4f;;
+    background-color: lightslategray;
     height: 5em;
-    position: fixed;
-    left: 0%;
-    right: 0%;
-    bottom: 0%;
+    position: relative;
+    margin-top: 45em;
 }
 
 .sidenav {
@@ -85,7 +76,7 @@ li {
 .burger {
     float: left;
     margin-left: 3%;
-    margin-top: 4%;
+    margin-top: 3%;
 }
 
 .font {
@@ -106,11 +97,16 @@ li {
 .head-p h2{
     font-family: 'Oswald', sans-serif;
     opacity: 0.9;
+    font-family: 'Quicksand', sans-serif;
 
 }
 
 .card {
     margin-top: 9em;
+}
+
+img.align-self-end.mr-3 {
+    width: 20em;
 }
 
 @media screen and (max-height: 450px) {
