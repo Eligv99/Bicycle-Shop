@@ -108,7 +108,9 @@ li {
 img.align-self-end.mr-3 {
     width: 20em;
 }
-
+.cart-heading{
+    background-color: lightslategrey !important;
+}
 .cart-grid{
     position: relative
 }
@@ -124,4 +126,26 @@ img.align-self-end.mr-3 {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 20px;}
+}
+
+@media only screen and (max-width: 900px){
+    
+    .header{
+        height: 7em;
+    }
+
+    .bike-img {
+        width: 5em;
+        padding: 3px;
+        margin-left: 40%;
+        margin-top: 2%;
+    }
+
+    .burger {
+        float: left;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+
+
 }
