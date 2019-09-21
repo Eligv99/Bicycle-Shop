@@ -109,6 +109,18 @@ img.align-self-end.mr-3 {
     width: 20em;
 }
 
+.cart-grid{
+    position: relative
+}
+
+.cart-total-amount {
+    width: 32em;
+}
+
+.cart-checkout{
+    margin-left: 14em;
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 20px;}
