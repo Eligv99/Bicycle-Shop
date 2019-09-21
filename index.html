@@ -6,12 +6,14 @@
     <title>Bicycle Rentals</title>
     <!-- Links and CDN -->
     <link rel="icon" type="image/png" href="http://example.com/myicon.png">
-    <!-- CSS File -->
+    <!-- CSS File -->  
+    <link rel="stylesheet" href="assets/css/simple_Cart.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
@@ -56,33 +58,15 @@
 
     <div class="container">
         <div class="products">
-            <div class="media">
-                <img src="http://via.placeholder.com/250x250?text=Adult%20Male%20Bike" class=" align-self-end mr-3"
-                    alt="...">
-                <div class="ul-list">
-                    <ul>
-                        <li>
-                            <h4>Adult Bike</h4>
-                        </li>
-                        <li>20.5.</li>
-                        <li>Product type: bike</li>
-                        <li><button type="button" class="btn btn-outline-secondary">Book</button></li>
-                    </ul>
-                </div>
-            </div>
         </div>
         <div class="card text-center">
             <div class="card-header">
                 Checkout
             </div>
             <div class="card-body">
-                <div class="pro-check">
+                <div id="cart">
 
                 </div>
-            </div>
-            <div class="card-footer text-muted">
-                <span class="float-left">Total:</span>
-                <span class="float-right">2 days ago</span>
             </div>
         </div>
 
@@ -96,7 +80,16 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <!-- Javascript File -->
+    <script src="assets/javascript/jQuery.SimpleCart.js" ></script>
     <script src="assets/javascript/app.js"></script>
+   
+
+    <script>
+    $(document).ready(function () {
+                $('#cart').simpleCart();
+    });
+    </script>
+
 </body>
 
 </html>
